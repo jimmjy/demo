@@ -29,6 +29,7 @@ body {
     background: rgb(239, 70, 35);
 }
 
+/* page content styling */
 .main-content {
     position: absolute;
     top: 50%;
@@ -40,4 +41,9 @@ body {
     -o-transform: translate(-50%, -50%);
     height: calc(100% - 100px);
     width: calc(100% - 100px);
+}
+
+/* test, need to remove */
+.main-content-center {
+    text-align: center;
 }
