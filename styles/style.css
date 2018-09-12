@@ -37,7 +37,7 @@
             box-sizing: border-box;
 }
 
-/* set properties to inherit */
+/* set properties to inherit and defaults */
 html {
     height: 100%;
 }
@@ -45,8 +45,6 @@ html {
 body {
     font-size: 16px;
 }
-
-
 
 /* header styling */
 
@@ -56,11 +54,15 @@ body {
     text-align: center;
     top: 2.5rem;
     left: 50%;
-    font-family: 'Asap Condensedbold';
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
 }
 
-.company-name a {
-    text-decoration: none;
+.company-name img {
+    width: 8rem;
 }
 
 /*  nav styling */
@@ -77,6 +79,11 @@ body {
 
 .menu-item a {
     text-decoration: none;
+    font-family: 'Asap Condensedbold', Times, serif;
+    text-transform: uppercase;
+    color: rgb(54, 63, 72);
+    letter-spacing: .1rem;
+    font-weight: 300;
 }
 
 .menu-item-about {
@@ -101,15 +108,17 @@ body {
 
 /* pages style */
 
-.page-one {
+#page-one {
     border: 1px solid red;
     background: rgb(239, 70, 35);
     height: 100vh;
     position: relative;
 }
 
+/* center page content styling */
+
 .main-content-center {
-    width: 50%;
+    width: 80%;
     border: 1px solid blue;
     position: relative;
     top: 50vh;
@@ -121,3 +130,50 @@ body {
     -o-transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.content-center-heading {
+    color: #fff;
+    line-height: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+.content-center-heading__top {
+    display: block;
+    font-size: 2.8rem;
+    font-family: 'Galaxie Copernicusbold';
+}
+
+.content-center-body {
+    text-align: center;
+    color: rgb(221,186,119);
+    padding-bottom: 1rem;
+    line-height: 1.6rem;
+}
+
+.content-center-body__para {
+    font-family: 'Galaxie Copernicusbook';
+    font-size: 1rem;
+    display: block;
+    letter-spacing: .1rem;
+}
+
+.content-center-footer {
+
+    color: rgb(221,186,119);
+    text-transform: uppercase;
+    font-size: .5rem;
+    font-weight: 100;
+    padding: 2rem;
+}
+
+.content-center-img {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.content-center-img img {
+    width: 100%;
+}
+
+
+
