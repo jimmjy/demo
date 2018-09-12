@@ -1,4 +1,33 @@
+/* fonts */
+@font-face {
+    font-family: 'Asap Condensedbold';
+    src: url('fonts/AsapCondensed-Bold.ttf');
+}
 
+@font-face {
+    font-family: 'Galaxie Copernicusbold';
+    src: url('fonts/GalaxieCopernicus-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Galaxie Copernicusbook';
+    src: url('fonts/GalaxieCopernicus-Book.otf');
+}
+
+@font-face {
+    font-family: 'Galaxie Copernicusextrabold';
+    src: url('fonts/GalaxieCopernicus-Extrabold.otf');
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('fonts/MinionPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica.ttc');
+}
 /* Browser reset */
 
 * {
@@ -9,8 +38,62 @@
 }
 
 /* set properties to inherit */
+html {
+    height: 100%;
+}
 
 body {
     font-size: 16px;
 }
 
+
+
+/* header styling */
+
+.company-name {
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    top: 40px;
+    left: 50%;
+    font-family: 'Asap Condensedbold';
+}
+
+.company-name a {
+    text-decoration: none;
+}
+
+/*  nav styling */
+
+.menu-items {
+    margin: 0;
+}
+
+.menu-item {
+    position: fixed;
+    list-style: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+}
+
+.menu-item-about {
+    top: 40px;
+    left: 40px;
+}
+
+.menu-item-work {
+    top: 40px;
+    right: 40px;
+}
+
+.menu-item-partners {
+    bottom: 40px;
+    left: 40px;
+}
+
+.menu-item-contact {
+    bottom: 40px;
+    right: 40px;
+}
