@@ -274,3 +274,28 @@ body {
     display: block;
     width: 100%;
 }
+
+/*  page four styling */
+#page-four {
+    background: rgb(152, 127, 72);
+    height: 100vh;
+    position: relative;
+}
+
+.look--like {
+    color: rgb(255, 246, 241);
+}
+
+/* edge sword styling */
+.page-three-edge-sword {
+    position: absolute;
+    width: 20%;
+    bottom: -7rem;
+    left: 9em;
+    z-index: 200;
+}
+
+.page-three-edge-sword img {
+    display: block;
+    width: 100%;
+}
