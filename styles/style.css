@@ -108,7 +108,7 @@ body {
 
 /* pages style */
 
-#page-one {
+#page-one, #page-five {
     background: rgb(239, 70, 35);
     height: 100vh;
     position: relative;
@@ -189,7 +189,7 @@ body {
 }
 
 /* page two content styling */
-#page-two {
+#page-two, #page-six {
     background: rgb(221, 186, 119);
     height: 100vh;
     position: relative;
@@ -296,6 +296,25 @@ body {
 }
 
 .page-three-edge-sword img {
+    display: block;
+    width: 100%;
+}
+
+/* page five styling */
+.page--five--padding {
+    padding-bottom: 1.3rem;
+}
+
+/* edge rose page five styling */
+.page-five-edge-rose {
+    position: absolute;
+    width: 20%;
+    bottom: -7rem;
+    left: 9em;
+    z-index: 200;
+}
+
+.page-five-edge-rose img {
     display: block;
     width: 100%;
 }
