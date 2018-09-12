@@ -54,7 +54,7 @@ body {
     position: fixed;
     z-index: 100;
     text-align: center;
-    top: 40px;
+    top: 2.5rem;
     left: 50%;
     font-family: 'Asap Condensedbold';
 }
@@ -72,6 +72,7 @@ body {
 .menu-item {
     position: fixed;
     list-style: none;
+    z-index: 100;
 }
 
 .menu-item a {
@@ -79,21 +80,44 @@ body {
 }
 
 .menu-item-about {
-    top: 40px;
-    left: 40px;
+    top: 2.5rem;
+    left: 2.5rem;
 }
 
 .menu-item-work {
-    top: 40px;
-    right: 40px;
+    top: 2.5rem;
+    right: 2.5rem;
 }
 
 .menu-item-partners {
-    bottom: 40px;
-    left: 40px;
+    bottom: 2.5rem;
+    left: 2.5rem;
 }
 
 .menu-item-contact {
-    bottom: 40px;
-    right: 40px;
+    bottom: 2.5rem;
+    right: 2.5rem;
+}
+
+/* pages style */
+
+.page-one {
+    border: 1px solid red;
+    background: rgb(239, 70, 35);
+    height: 100vh;
+    position: relative;
+}
+
+.main-content-center {
+    width: 50%;
+    border: 1px solid blue;
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
 }
