@@ -109,7 +109,6 @@ body {
 /* pages style */
 
 #page-one {
-    border: 1px solid red;
     background: rgb(239, 70, 35);
     height: 100vh;
     position: relative;
@@ -119,7 +118,7 @@ body {
 
 .main-content-center {
     width: 80%;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     position: relative;
     top: 50vh;
     left: 50%;
@@ -133,7 +132,7 @@ body {
 
 .content-center-heading {
     color: #fff;
-    line-height: 3.5rem;
+    line-height: 2.7rem;
     margin-bottom: .5rem;
 }
 
@@ -141,7 +140,6 @@ body {
     display: block;
     font-size: 2.3rem;
     font-family: 'Galaxie Copernicusbold';
-    /* text-shadow: .1rem .1rem .4rem rgb(138, 134, 134); */
 }
 
 .content-center-body {
@@ -177,17 +175,43 @@ body {
 }
 
 /* page one heart image */
-.page-one-edge-img {
+.page-one-edge-heart {
     position: absolute;
     width: 25%;
     bottom: -6rem;
     right: 9em;
+    z-index: 200;
 }
 
-.page-one-edge-img img {
+.page-one-edge-heart img {
     display: block;
     width: 100%;
 }
 
+/* page two content styling */
+#page-two {
+    background: rgb(221, 186, 119);
+    height: 100vh;
+    position: relative;
+}
 
+.content-center-heading__page-two, .content-center-heading__underline {
+    font-size: 2.3rem;
+    font-family: 'Galaxie Copernicusbold';
+}
+
+.content-center-heading__underline {
+    border-bottom: .02rem solid #fff;
+    display: inline-block;
+    line-height: 2.3rem;
+}
+
+.content-center-footer__page-two {
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(239, 70, 35);
+    padding-bottom: 1.2rem;
+    font-size: .8rem;
+    letter-spacing: .04rem;
+}
 
