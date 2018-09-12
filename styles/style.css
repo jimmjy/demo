@@ -176,5 +176,18 @@ body {
     width: 100%;
 }
 
+/* page one heart image */
+.page-one-edge-img {
+    position: absolute;
+    width: 25%;
+    bottom: -6rem;
+    right: 9em;
+}
+
+.page-one-edge-img img {
+    display: block;
+    width: 100%;
+}
+
 
 
