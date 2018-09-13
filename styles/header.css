@@ -62,7 +62,11 @@ body {
     -o-transform:translateX(-50%);
 }
 
-.company-logo img {
+.company-logo a {
+    display: block;
+}
+
+.juliet-logo {
     width: 8rem;
 }
 

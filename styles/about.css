@@ -1,0 +1,7 @@
+/* background setup */
+.background-splash {
+    background: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('/images/backgrounds/Juliet_founders.jpg') no-repeat;
+    background-size: 170%;
+    background-position: -270px -260px;
+    height: 100vh;
+}
