@@ -1,0 +1,118 @@
+/* fonts */
+@font-face {
+    font-family: 'Asap Condensedbold';
+    src: url('fonts/AsapCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Galaxie Copernicusbold';
+    src: url('fonts/GalaxieCopernicus-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Galaxie Copernicusbook';
+    src: url('fonts/GalaxieCopernicus-Book.otf');
+}
+
+@font-face {
+    font-family: 'Galaxie Copernicusextrabold';
+    src: url('fonts/GalaxieCopernicus-Extrabold.otf');
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('fonts/MinionPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/Helvetica.ttc');
+}
+/* Browser reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* set properties to inherit and defaults */
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+/* header styling */
+
+.company-logo {
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    top: 2.5rem;
+    left: 50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}
+
+.company-logo img {
+    width: 8rem;
+}
+
+/*  nav styling */
+
+.menu-items {
+    margin: 0;
+}
+
+.menu-item {
+    position: fixed;
+    list-style: none;
+    z-index: 100;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-family: 'Asap Condensedbold', Times, serif;
+    text-transform: uppercase;
+    color: rgb(54, 63, 72);
+    letter-spacing: .1rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.menu-item-about {
+    top: 2.5rem;
+    left: 2.5rem;
+}
+
+.menu-item-contact {
+    top: 2.5rem;
+    right: 2.5rem;
+}
+
+.menu-item-partners {
+    bottom: 2.5rem;
+    left: 2.5rem;
+}
+
+.menu-item-what-we-believe {
+    bottom: 2.5rem;
+    right: 2.5rem;
+}
+
+.menu-item-commitment {
+    top: 50%;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
