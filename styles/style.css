@@ -48,7 +48,7 @@ body {
 
 /* header styling */
 
-.company-name {
+.company-logo {
     position: fixed;
     z-index: 100;
     text-align: center;
@@ -61,7 +61,7 @@ body {
     -o-transform:translateX(-50%);
 }
 
-.company-name img {
+.company-logo img {
     width: 8rem;
 }
 
@@ -118,7 +118,6 @@ body {
 
 .main-content-center {
     width: 80%;
-    border: 1px solid blue;
     position: relative;
     top: 50vh;
     left: 50%;
@@ -165,12 +164,12 @@ body {
     padding: 1.6rem;
 }
 
-.content-center-img {
+.content-center-downarrow {
     width: 3.7rem;
     margin: 0 auto;
 }
 
-.content-center-img img {
+.content-center-downarrow img {
     width: 100%;
 }
 
@@ -317,4 +316,42 @@ body {
 .page-five-edge-rose img {
     display: block;
     width: 100%;
+}
+
+/* page six styling */
+.contact-title {
+    font-size: 2.2rem;
+}
+
+.content-center-contact-paragraph {
+    font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
+}
+
+.content-center-contact {
+    display: block;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.contact--orange {
+    color: rgb(239, 70, 35);
+}
+
+.email-links {
+    padding: 2rem 0;
+}
+
+.email-link {
+    display: block;
+    color: rgb(255, 246, 241);
+    padding: .2rem;
+    font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
+    font-size: .9rem;
+}
+
+.content-center-contact-address {
+    display: block;
+    line-height: 1.5rem;
+    font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
+    font-size: .9rem;
 }
