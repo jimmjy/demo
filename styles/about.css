@@ -1,3 +1,22 @@
+/* Browser reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* set properties to inherit and defaults */
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+}
+
 /* background setup */
 .background-splash {
     background-image: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders.jpg');
@@ -13,7 +32,7 @@
     position: relative;
     top: 25vh;
     margin: 0 auto;
-    width: 690px;
+    width: 60%;
 }
 
 .about-main-body-header {
