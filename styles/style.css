@@ -93,7 +93,7 @@ body {
     left: 2.5rem;
 }
 
-.menu-item-work {
+.menu-item-contact {
     top: 2.5rem;
     right: 2.5rem;
 }
@@ -103,7 +103,7 @@ body {
     left: 2.5rem;
 }
 
-.menu-item-contact {
+.menu-item-what-we-believe {
     bottom: 2.5rem;
     right: 2.5rem;
 }
@@ -212,7 +212,7 @@ body {
 }
 
 /* page two content styling */
-#page-two, #page-six {
+#page-two {
     background: rgb(221, 186, 119);
     height: 100vh;
     position: relative;
@@ -238,6 +238,7 @@ body {
     letter-spacing: .04rem;
 }
 
+/* page two edge image styling */
 .page-two-edge-skull {
     position: absolute;
     width: 20%;
@@ -324,27 +325,16 @@ body {
 }
 
 /* page five styling */
-.page--five--padding {
-    padding-bottom: 1.3rem;
+#page-five {    
+    overflow-y: hidden;
 }
 
-/* edge rose page five styling */
-.page-five-edge-rose {
-    position: absolute;
-    width: 20%;
-    bottom: -7rem;
-    left: 9em;
-    z-index: 200;
-}
-
-.page-five-edge-rose img {
-    display: block;
-    width: 100%;
-}
-
-/* page six styling */
 .contact-title {
     font-size: 2.2rem;
+}
+
+.content-center-heading {
+    font-family: 'Galaxie Copernicusextrabold';
 }
 
 .content-center-contact-paragraph {
@@ -357,8 +347,8 @@ body {
     line-height: 1.5rem;
 }
 
-.contact--orange {
-    color: rgb(239, 70, 35);
+.contact--gold {
+    color: rgb(221, 186, 119);
 }
 
 .email-links {
@@ -378,4 +368,19 @@ body {
     line-height: 1.5rem;
     font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
     font-size: .9rem;
+}
+
+/* page five edge image styling */
+
+.page-five-edge-rose {
+    position: absolute;
+    width: 20%;
+    bottom: -6.3rem;
+    left: 9em;
+    z-index: 200;
+}
+
+.page-five-edge-rose img {
+    display: block;
+    width: 100%;
 }
