@@ -40,10 +40,11 @@
 /* set properties to inherit and defaults */
 html {
     height: 100%;
+    font-size: 100%;
 }
 
 body {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* header styling */
@@ -84,6 +85,7 @@ body {
     color: rgb(54, 63, 72);
     letter-spacing: .1rem;
     font-weight: 300;
+    font-size: 1rem;
 }
 
 .menu-item-about {
@@ -104,6 +106,28 @@ body {
 .menu-item-contact {
     bottom: 2.5rem;
     right: 2.5rem;
+}
+
+.menu-item-believe {
+    right: 0;
+    top: 50%;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+.believe-click {
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.believe-click img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 /* pages style */
