@@ -1,7 +1,37 @@
 /* background setup */
 .background-splash {
-    background: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders.jpg') no-repeat;
-    background-size: 170%;
-    background-position: -270px -260px;
+    background-image: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders.jpg');
+    background-size: 200% cover;
+    background-repeat: no-repeat;
+    background-position: 0, 30% 60%;
     height: 100vh;
 }
+
+/* body content styling */
+
+.about-main-body {
+    position: relative;
+    top: 25vh;
+    margin: 0 auto;
+    width: 690px;
+}
+
+.about-main-body-header {
+    text-align: center;
+    color: rgb(255, 246, 241);
+    display: block;
+    font-size: 2.3rem;
+    font-family: 'Galaxie Copernicusbold';
+    padding-bottom: 1.5rem;
+}
+
+.about-main-story {
+    font-family: 'Galaxie Copernicusbook';
+    font-size: .9rem;
+}
+
+.love-dearly {
+    display: block;
+    text-align: center
+}
+
