@@ -1,0 +1,72 @@
+.main-background {
+    background: rgb(221, 186, 119);
+    height: 100vh;
+}
+
+/* commitment body styling */
+.commitment-body {
+    position: relative;
+    top: 20%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.top-body {
+    margin-bottom: 2rem;
+}
+
+.commitment-body-title {
+    color: rgb(225,246,241);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.commitment-title-top {
+    font-family: 'Galaxie Copernicusbold', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    letter-spacing: .05rem;
+}
+
+.commitment-body-para .commitment-body-list {
+    color: rgb(54, 63, 72);
+}
+
+.commitment-body-para {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.commitment-body-para-newline {
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Galaxie Copernicusbook';
+}
+
+/* body content bottom section */
+.commitment-title-bottom {
+    font-family: 'Asap Condensedbold', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.commitment-list {
+    text-align: center;
+    list-style: none;
+}
+
+.commitment-list-item {
+    font-family: 'Galaxie Copernicusbook';
+    font-size: 1.2rem;
+    padding: .7rem 0;
+}
+
+.commitment-list-item:before {
+    content: "\002022  ";
+    font-size: 2rem;
+    color: rgb(225,246,241);
+}
+
+.list-item-newline {
+    display: block;
+}
