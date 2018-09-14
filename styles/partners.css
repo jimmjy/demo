@@ -1,0 +1,32 @@
+/* background color */
+
+.background-partners {
+    background: rgb(239, 70, 35);
+    height: 100vh;
+}
+
+.main-content-partners {
+    position: relative;
+    margin: 0 auto;
+    top: 20%;
+    width: 75%;
+}
+
+
+.partners-title {
+    color: rgb(225, 246, 241);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.partners-logos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-logo {
+    width: 25%;
+    height: 25%;
+    display: block;
+}
