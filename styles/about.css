@@ -19,20 +19,29 @@ body {
 
 /* background setup */
 .background-splash {
-    background-image: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders.jpg');
-    background-size: 200% cover;
+    background: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders.jpg');
+    background-size: cover cover;
     background-repeat: no-repeat;
-    background-position: 0, 30% 60%;
+    background-position: 0, 35% 50%;
     height: 100vh;
 }
 
 /* body content styling */
 
-.about-main-body {
+.about-main {
     position: relative;
-    top: 25vh;
-    margin: 0 auto;
+    top: 30%;
+    left: 50%;
+    transform:translateX(-50%);
     width: 60%;
+    -webkit-transform:translate(-50%);
+    -moz-transform:translate(-50%);
+    -ms-transform:translate(-50%);
+    -o-transform:translate(-50%);
+}
+
+.about-main-body {
+    text-align: center;
 }
 
 .about-main-body-header {
