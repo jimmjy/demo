@@ -79,10 +79,11 @@ body {
 .menu-item {
     position: fixed;
     list-style: none;
-    z-index: 100;
+    z-index: 300;
 }
 
 .menu-item a {
+    display: block;
     text-decoration: none;
     font-family: 'Asap Condensedbold', Times, serif;
     text-transform: uppercase;
