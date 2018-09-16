@@ -253,3 +253,29 @@
     display: block;
     width: 100%;
 }
+
+/* animations page one */
+.animate-page-one-title {
+    position: relative;
+    animation: fadeInSlideUp;
+    -webkit-animation: fadeInSlideUp 1s ease-in-out;
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+       opacity: 0;
+       transform: translateY(20px);
+       -webkit-transform: translateY(20px);
+       -moz-transform: translateY(20px);
+       -ms-transform: translateY(20px);
+       -o-transform: translateY(20px);
+}
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+}
