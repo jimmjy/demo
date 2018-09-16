@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
     background-position: 0, 35% 50%;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 /* body content styling */
@@ -46,3 +48,28 @@
     text-align: center
 }
 
+/* edge image styling */
+
+.edge-hand-logo-about {
+    width: 15%;
+    position: absolute;
+    top: -15rem;
+    right: 7rem
+}
+
+.edge-hand-logo-about img {
+    width: 100%;
+    display: block;
+}
+
+.edge-eye-logo-about {
+    width: 20%;
+    position: absolute;
+    bottom: -6rem;
+    right: 7rem;
+}
+
+.edge-eye-logo-about img {
+    width: 100%;
+    display: block;
+}
