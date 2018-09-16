@@ -12,7 +12,7 @@
 .main-content-center {
     width: 80%;
     position: relative;
-    top: 50vh;
+    top: 20vh;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -38,9 +38,6 @@
     text-align: center;
     color: rgb(221,186,119);
     line-height: 1.6rem;
-    opacity: 0;
-    animation: fadeIn 1s 1s normal ease-in-out forwards;
-    -webkit-animation: fadeIn 1s 1s normal ease-in-out forwards;
 }
 
 .content-center-body__para {
@@ -120,7 +117,7 @@
 .page-two-edge-skull {
     position: absolute;
     width: 20%;
-    bottom: -4.7rem;
+    bottom: -4rem;
     left: 9em;
     z-index: 200;
 }
@@ -233,8 +230,13 @@
     padding: 2rem 0;
 }
 
+.email-container {
+    text-align: center;
+    padding: .2rem;
+}
+
 .email-link {
-    display: block;
+    display: inline;
     color: rgb(255, 246, 241);
     padding: .2rem;
     font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
@@ -263,13 +265,18 @@
     width: 100%;
 }
 
-/* animations page one */
+/* animations page one classes */
 .animate-page-one-title {
     position: relative;
     animation: fadeInSlideUp;
-    -webkit-animation: fadeInSlideUp 1s ease-in-out;
+    -webkit-animation: fadeInSlideUp 1s ease-in-out forwards;
 }
 
+.animate-two {
+    opacity: 0;
+}
+
+/* animation steps */
 @keyframes fadeInSlideUp {
     0% {
        opacity: 0;
