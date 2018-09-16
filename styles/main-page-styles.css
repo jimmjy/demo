@@ -38,6 +38,9 @@
     text-align: center;
     color: rgb(221,186,119);
     line-height: 1.6rem;
+    opacity: 0;
+    animation: fadeIn 1s 1s normal ease-in-out forwards;
+    -webkit-animation: fadeIn 1s 1s normal ease-in-out forwards;
 }
 
 .content-center-body__para {
@@ -45,6 +48,12 @@
     font-size: 1rem;
     display: block;
     letter-spacing: .1rem;
+}
+
+.animate-page-one {
+    opacity: 0;
+    animation: fadeIn 1s 1s normal ease-in forwards;
+    -webkit-animation: fadeIn 1s 1s normal ease-in forwards;
 }
 
 .content-center-footer {
@@ -278,4 +287,13 @@
         -ms-transform: translateY(0);
         -o-transform: translateY(0);
 }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
