@@ -3,6 +3,8 @@
 .background-partners {
     background: rgb(239, 70, 35);
     height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .main-content-partners {
@@ -27,4 +29,34 @@
 
 .partner-logo {
     display: block;
+    width: 25%;
+    height: 8rem;
+    padding: 1.5rem;
+    object-fit: contain;
+}
+
+/* edge eye image styling */
+
+.edge-eye-logo-partners {
+    position: absolute;
+    width: 25%;
+    top: -7.2rem;
+    right: 9rem;
+}
+
+.edge-eye-logo-partners img {
+    display: block;
+    width: 100%;
+}
+
+.edge-rose-logo-partners {
+    position: absolute;
+    width: 25%;
+    left: 9rem;
+    bottom: -11rem;
+}
+
+.edge-rose-logo-partners img {
+    display: block;
+    width: 100%;
 }
