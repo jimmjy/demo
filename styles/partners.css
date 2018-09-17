@@ -31,7 +31,7 @@
 .partner-logo {
     display: block;
     width: 11.6rem;
-    height: 8rem;
+    height: 9rem;
     padding: 1.5rem;
     object-fit: contain;
 }
@@ -40,8 +40,8 @@
 
 .edge-eye-logo-partners {
     position: absolute;
-    width: 19rem;
-    top: -7.2rem;
+    width: 15rem;
+    top: -6rem;
     right: 9rem;
 }
 
@@ -52,9 +52,9 @@
 
 .edge-rose-logo-partners {
     position: absolute;
-    width: 19rem;
+    width: 16rem;
     left: 9rem;
-    bottom: -11rem;
+    bottom: -9rem;
 }
 
 .edge-rose-logo-partners img {

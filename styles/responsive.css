@@ -2,9 +2,7 @@
     /* main page responsive styling */
     /* page one styling */
 
-    html {
-        font-size: 15px;
-    }
+    
     .responsive-main-page-one {
         position: relative;
         top: -20px;
@@ -67,13 +65,26 @@
  }
 
  /* commitment.html works fine with the html tag so no extra styles at this break point */
- 
+ @media all and (max-width: 900px) {
+    .responsive-main-content-partners {
+        width: 45rem;
+    }
+ }
+
 @media all and (max-width: 830px) { 
-   
+    .believe-body-content {
+        top: 18rem;
+    }
+
+   .believe-saying {
+       font-size: 2.2rem;
+   }
  }
 
  @media all and (max-width: 768px) {
-
+    html {
+        font-size: 17px;
+    }
  }
 
 @media all and (max-width: 480px) { 
