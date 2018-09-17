@@ -1,14 +1,20 @@
-
-
-const title = document.querySelector('.animate-title');
-const pageOne = document.querySelector('#page-one');
-const pageTwo = document.querySelector('#page-two');
-const pageThree = document.querySelector('#page-three');
-const pageFour = document.querySelector('#page-four');
+// default variables
+console.log('working');
+const contactButton = document.querySelector('#contact-click');
+const title = document.querySelector('.page-one-title-animate');
+const titleText = document.querySelector('.animate-two');
 const pageFive = document.querySelector('#page-five');
 
+// // contact click 
+// contactButton.addEventListener('click', () => {
+//     location.href = '../index.html';
+// });
 
+
+// test animations
 title.classList.add('animate-page-one-title');
+titleText.classList.add('.animate-two');
+
 
 const menuContact = document.querySelector('.menu-item-contact');
 
@@ -21,12 +27,6 @@ menuContact.addEventListener('click', function (e){
     });
 });
 
-// testing out scrolling actions
-
-// window.scrollY tells us the scroll position
-// element.getBoundingClientRect() can give us position based on viewport
-
-// scrollIntoView takes us to element
 
 
 
