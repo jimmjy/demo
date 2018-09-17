@@ -86,7 +86,7 @@
 /* page one heart image */
 .page-one-edge-heart {
     position: absolute;
-    width: 25%;
+    width: 18rem;
     bottom: -6rem;
     right: 9rem;
     z-index: 200;
@@ -128,7 +128,7 @@
 /* page two edge image styling */
 .page-two-edge-skull {
     position: absolute;
-    width: 15%;
+    width: 9rem;
     bottom: -2.7rem;
     left: 9em;
     z-index: 200;
@@ -179,8 +179,8 @@
 
 .page-three-edge-rose {
     position: absolute;
-    width: 20%;
-    bottom: -5.2rem;
+    width: 15rem;
+    bottom: -5.5rem;
     right: 9em;
     z-index: 200;
 }
@@ -204,8 +204,8 @@
 /* edge sword styling */
 .page-three-edge-sword {
     position: absolute;
-    width: 20%;
-    bottom: -7rem;
+    width: 13rem;
+    bottom: -6rem;
     left: 9em;
     z-index: 200;
 }
@@ -266,7 +266,7 @@
 
 .page-five-edge-rose {
     position: absolute;
-    width: 20%;
+    width: 12rem;
     bottom: -6.3rem;
     left: 9em;
     z-index: 200;
