@@ -1,5 +1,60 @@
-@media all and (max-width: 991px) {
+@media all and (max-width: 1000px) {
+
+    /* page one styling */
+
+    html {
+        font-size: 15px;
+    }
+    .responsive-main-page-one {
+        position: relative;
+        top: 5vh;
+    }
+
+    .responsive-heart-page-one {
+        bottom: -17rem;
+    }
+
+    /* page two styling */
+    .responsive-main-page-two {
+        position: relative;
+        top: 7vh;
+    }
+
+    .responsive-skull-page-two {
+        bottom: -15.5rem;
+    }
+
+    /* page three styling */
+
+    .responsive-main-page-three {
+        position: relative;
+        top: 11vh;
+    }
     
+    .responsive-rose-page-three {
+        
+        bottom: -10rem;
+    }
+
+    /* page four styling */
+    .responsive-main-page-four {
+        position: relative;
+        top: 7vh;
+    }
+
+    .responsive-sword-page-four {
+        bottom: -15rem;
+    }
+
+    /* page five styling */
+    .responsive-main-page-five {
+        position: relative;
+        top: 7vh;
+    }
+
+    .responsive-heart-page-five {
+        bottom: -15rem;
+    }
  }
  
 @media all and (max-width: 768px) { 
