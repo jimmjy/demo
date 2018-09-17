@@ -11,7 +11,7 @@
     position: relative;
     margin: 0 auto;
     top: 20%;
-    width: 75%;
+    width: 50rem;
 }
 
 
@@ -23,13 +23,14 @@
 
 .partners-logos {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .partner-logo {
     display: block;
-    width: 25%;
+    width: 11.6rem;
     height: 8rem;
     padding: 1.5rem;
     object-fit: contain;
@@ -39,7 +40,7 @@
 
 .edge-eye-logo-partners {
     position: absolute;
-    width: 25%;
+    width: 19rem;
     top: -7.2rem;
     right: 9rem;
 }
@@ -51,7 +52,7 @@
 
 .edge-rose-logo-partners {
     position: absolute;
-    width: 25%;
+    width: 19rem;
     left: 9rem;
     bottom: -11rem;
 }
