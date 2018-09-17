@@ -23,15 +23,26 @@
 }
 
 .content-center-heading {
+    position: relative;
+    top: 0rem;
     color: rgb(255, 246, 241);
     line-height: 2.7rem;
-    margin-bottom: .5rem;
+    font-family: 'Galaxie Copernicusextrabold';
+}
+
+.page-two-spacing {
+    top: -4rem;
 }
 
 .content-center-heading__top {
     display: block;
     font-size: 2.3rem;
     font-family: 'Galaxie Copernicusbold';
+}
+
+.page-two-inside-out {
+    position: relative;
+    top: -3rem;
 }
 
 .content-center-body {
@@ -93,6 +104,7 @@
     position: relative;
 }
 
+
 .content-center-heading__page-two, .content-center-heading__underline {
     font-size: 2.3rem;
     font-family: 'Galaxie Copernicusbold';
@@ -108,7 +120,7 @@
     font-family: Helvetica, sans-serif;
     text-transform: uppercase;
     color: rgb(239, 70, 35);
-    padding: 1rem 0 1.5rem 0;
+    padding: 0 0 1rem 0;
     font-size: .8rem;
     letter-spacing: .04rem;
 }
@@ -116,8 +128,8 @@
 /* page two edge image styling */
 .page-two-edge-skull {
     position: absolute;
-    width: 20%;
-    bottom: -4rem;
+    width: 15%;
+    bottom: -2.7rem;
     left: 9em;
     z-index: 200;
 }
@@ -132,6 +144,10 @@
     background: rgb(152, 127, 72);
     height: 100vh;
     position: relative;
+}
+
+.content-center-page-three {
+    top: 27vh;
 }
 
 .content-center-pre-heading {
@@ -206,10 +222,6 @@
 
 .contact-title {
     font-size: 2.2rem;
-}
-
-.content-center-heading {
-    font-family: 'Galaxie Copernicusextrabold';
 }
 
 .content-center-contact-paragraph {
