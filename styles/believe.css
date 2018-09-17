@@ -1,6 +1,7 @@
 /* background styling */
 .background-splash {
-    background: linear-gradient(rgba(239,70,35,.8), rgba(239,70,35,.8)), url('../images/backgrounds/Juliet_Pattern_v2-03-min.png');
+    background: linear-gradient(rgb(239, 70, 35, .8), rgb(239, 70, 35, .8)),
+    url('../images/backgrounds/Juliet_Pattern_v2-04.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: cover, cover;
