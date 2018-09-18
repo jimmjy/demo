@@ -10,6 +10,7 @@
 
     .responsive-heart-page-one {
         bottom: -25rem;
+        width: 17rem;
     }
 
     /* page two styling */
@@ -19,7 +20,8 @@
     }
 
     .responsive-skull-page-two {
-        bottom: -24rem;
+        bottom: -23rem;
+        width: 8rem;
     }
 
     /* page three styling */
@@ -30,7 +32,7 @@
     }
     
     .responsive-rose-page-three {
-        
+        width: 13rem;
         bottom: -21rem;
     }
 
@@ -66,24 +68,37 @@
 
  /* commitment.html works fine with the html tag so no extra styles at this break point */
  @media all and (max-width: 900px) {
+     .responsive-about-main {
+        width: 39rem;
+     }
+
     .responsive-main-content-partners {
         width: 45rem;
     }
- }
 
-@media all and (max-width: 830px) { 
-    .believe-body-content {
+    .responsive-believe-body {
         top: 18rem;
+        width: 47rem;
     }
 
-   .believe-saying {
+   .responsive-believe-saying {
        font-size: 2.2rem;
+   }
+
+   .responsive-partners-eye {
+       width: 13rem;
+       top: -5rem;
+   }
+
+   .responsive-partners-rose {
+       width: 14rem;
+       bottom: -8rem;
    }
  }
 
  @media all and (max-width: 768px) {
     html {
-        font-size: 17px;
+        font-size: 15px;
     }
  }
 

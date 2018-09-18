@@ -1,6 +1,9 @@
+init();
+
 // default variables
-console.log('working');
-const contactButton = document.querySelector('#contact-click');
+
+
+function init () {
 const title = document.querySelector('.page-one-title-animate');
 const titleText = document.querySelector('.animate-two');
 const pageFive = document.querySelector('#page-five');
@@ -18,8 +21,6 @@ titleText.classList.add('.animate-two');
 
 const menuContact = document.querySelector('.menu-item-contact');
 
-const contactPage = document.querySelector('#page-five');
-
 menuContact.addEventListener('click', function (e){
     e.preventDefault();
     pageFive.scrollIntoView({
@@ -27,6 +28,7 @@ menuContact.addEventListener('click', function (e){
     });
 });
 
+};
 
 
 
