@@ -183,7 +183,7 @@
         top: -3rem;
     }
     .responsive-skull-page-two {
-        bottom: -14rem;
+        bottom: -11rem;
         width: 10rem;
         left: -2.3rem;
     }
@@ -203,7 +203,7 @@
 
     .responsive-rose-page-three {
         width: 13rem;
-        bottom: -7rem;
+        bottom: -6rem;
         right: -4rem;
     }
 
@@ -222,9 +222,28 @@
     }
 
     .responsive-sword-page-four {
-        bottom: -18rem;
+        bottom: -12rem;
         right: -.5rem;
         left: unset;
+    }
+
+    /* page five */
+
+    .responsive-page-five-content {
+        top: 11rem;
+        width: 95%;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .content-center-contact, .email-container a, .content-center-contact-address {
+        font-size: 1.1rem;
+    }
+
+    .responsive-heart-page-five {
+        display: none;
     }
 
     .responsive-partners-logos {
