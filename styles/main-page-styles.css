@@ -86,6 +86,10 @@
     width: 100%;
 }
 
+.pageOne--unhide {
+    display: none;
+}
+
 /* page one heart image */
 .page-one-edge-heart {
     position: absolute;

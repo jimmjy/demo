@@ -5,7 +5,7 @@
     
     .responsive-main-page-one {
         position: relative;
-        top: -20px;
+        top: -1.25rem;
     }
 
     .responsive-heart-page-one {
@@ -16,7 +16,7 @@
     /* page two styling */
     .responsive-main-page-two {
         position: relative;
-        top: 0;
+        top: -1rem;
     }
 
     .responsive-skull-page-two {
@@ -138,13 +138,13 @@
 
     .menu-item-commitment {
         bottom: 2.6rem;
-        left: 48%;
+        left: 50%;
         top: unset;
-        transform: rotate(1800deg) translateX(-50%)   ;
-        -webkit-transform: rotate(1800deg) translateX(-50%)   ;
-        -moz-transform: rotate(1800deg) translateX(-50%)   ;
-        -ms-transform: rotate(1800deg) translateX(-50%)   ;
-        -o-transform: rotate(1800deg) translateX(-50%)   ;
+        transform: rotate(0deg) translateX(-50%)   ;
+        -webkit-transform: rotate(0deg) translateX(-50%)   ;
+        -moz-transform: rotate(0deg) translateX(-50%)   ;
+        -ms-transform: rotate(0deg) translateX(-50%)   ;
+        -o-transform: rotate(0deg) translateX(-50%)   ;
         height: 1rem;
 }
 
@@ -152,7 +152,40 @@
 
 @media all and (max-width: 480px) { 
     html {
-        font-size: .7rem;
+        font-size: .8rem;
+    }
+
+    /* main page - page one */
+    .responsive-main-page-one {
+        top: -1.4rem;
+    }
+    .page-one-responsive-center {
+        width: 95%;
+    }
+
+    .pageOne--hide {
+        display: none;
+    }
+
+    .pageOne--unhide {
+        display: block;
+    }
+
+    .responsive-heart-page-one {
+        bottom: -12rem;
+        width: 13rem;
+        right: -4rem;
+    }
+
+    /* main page - page two */
+    .responsive-main-page-two {
+        position: relative;
+        top: -3rem;
+    }
+    .responsive-skull-page-two {
+        bottom: -14rem;
+        width: 10rem;
+        left: -2.3rem;
     }
 
     .responsive-partners-logos {
