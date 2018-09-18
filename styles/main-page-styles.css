@@ -240,7 +240,7 @@
 }
 
 /* edge sword styling */
-.page-three-edge-sword {
+.page-four-edge-sword {
     position: absolute;
     width: 13rem;
     bottom: -6rem;
@@ -248,7 +248,7 @@
     z-index: 200;
 }
 
-.page-three-edge-sword img {
+.page-four-edge-sword img {
     display: block;
     width: 100%;
 }

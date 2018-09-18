@@ -189,7 +189,7 @@
     }
 
     /* page three */
-    .responsive-page-three-title {
+    .responsive-page--title {
         font-size: 1.6rem;
     }
 
@@ -205,6 +205,26 @@
         width: 13rem;
         bottom: -7rem;
         right: -4rem;
+    }
+
+    /* page four */
+    .page-four-center-content {
+        top: 14rem;
+        width: 95%;
+    }
+
+    .page-four-title-body span {
+        font-size: 2rem;
+    }
+
+    .content-center-pre-footer__what-we-do {
+        font-size: 1.1rem
+    }
+
+    .responsive-sword-page-four {
+        bottom: -18rem;
+        right: -.5rem;
+        left: unset;
     }
 
     .responsive-partners-logos {
