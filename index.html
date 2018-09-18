@@ -27,7 +27,7 @@
                     <a href="./pages/about.html">About</a>
                 </li>
                 <li class="menu-item menu-item-contact">
-                    <a href="#">Contact</a>
+                    <a href="#page5">Contact</a>
                 </li>
                 <li class="menu-item menu-item-what-we-believe">
                     <a href="./pages/believe.html">What we believe</a>
@@ -43,7 +43,7 @@
     </header>
 
     <div id="fullpage">
-        <div class="wrapper section" id="page-one">
+        <div class="wrapper section" data-anchor="page1" id="page-one">
             <main class="main-content responsive-main-page-one">
                 <section class="main-content-center">
                     <h1 class="content-center-heading page-one-title-animate">
@@ -69,7 +69,7 @@
                 </div>
             </main>
         </div>
-        <div class="wrapper section" id="page-two">
+        <div class="wrapper section" data-anchor="page2" id="page-two">
             <main class="main-content-page-two responsive-main-page-two">
                 <section class="main-content-center content-center-page-two">
                     <h1 class="content-center-heading page-two-spacing">
@@ -89,7 +89,7 @@
             </main>
         </div>
     
-        <div class="wrapper section" id="page-three">
+        <div class="wrapper section" data-anchor="page3" id="page-three">
             <main class="main-content responsive-main-page-three">
                 <section class="main-content-center content-center-page-three">
                     <h2 class="content-center-pre-heading">What we do inside</h2>
@@ -115,7 +115,7 @@
                 </div>
             </main>
         </div>
-        <div class="wrapper section" id="page-four">
+        <div class="wrapper section" data-anchor="page4" id="page-four">
             <main class="main-content responsive-main-page-four">
                 <section class="main-content-center">
                     <h2 class="content-center-pre-heading">What we do out</h2>
@@ -138,7 +138,7 @@
                 </div>
             </main>
         </div>
-        <div class="wrapper section" id="page-five">
+        <div class="wrapper section" class="slide" data-anchor="page5" id="page-five">
             <main class="main-content page-five-hide-overflow responsive-main-page-five">
                 <section class="main-content-center">
                     <h1 class="content-center-heading contact-title">Contact</h1>
@@ -170,7 +170,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
     <script src="scripts/action.js"></script>
-    <script> $(document).ready(function() { $('#fullpage').fullpage(); });</script>
 </body>
 
 </html>

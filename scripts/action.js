@@ -4,6 +4,7 @@ init();
 
 
 function init () {
+    $(document).ready(function() { $('#fullpage').fullpage(); });
 const title = document.querySelector('.page-one-title-animate');
 const titleText = document.querySelector('.animate-two');
 const pageFive = document.querySelector('#page-five');
@@ -19,14 +20,6 @@ title.classList.add('animate-page-one-title');
 titleText.classList.add('.animate-two');
 
 
-const menuContact = document.querySelector('.menu-item-contact');
-
-menuContact.addEventListener('click', function (e){
-    e.preventDefault();
-    pageFive.scrollIntoView({
-        behavior: 'smooth'
-    });
-});
 
 };
 
