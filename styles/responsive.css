@@ -188,6 +188,25 @@
         left: -2.3rem;
     }
 
+    /* page three */
+    .responsive-page-three-title {
+        font-size: 1.6rem;
+    }
+
+    .page-three-font span {
+        font-size: 2rem;
+    }
+
+    .content-center-page-three {
+        top: 15rem;
+    }
+
+    .responsive-rose-page-three {
+        width: 13rem;
+        bottom: -7rem;
+        right: -4rem;
+    }
+
     .responsive-partners-logos {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -196,11 +215,11 @@
     }
 
     .menu-item a {
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .menu-item-commitment {
-        bottom: 2.4rem;
+        bottom: 2.3rem;
         left: 46.5%;
     }
     
