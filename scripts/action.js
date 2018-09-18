@@ -1,8 +1,3 @@
-
-
-
-
-
 $(document).ready(function(){
     $('#fullpage').fullpage({
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
@@ -49,7 +44,10 @@ $(document).ready(function(){
         }
     });
 
-    //put things here
+    $('#down--arrow').click(function(e){
+        e.preventDefault();
+        $.fn.fullpage.moveSectionUp();
+    });
 });
     
 
