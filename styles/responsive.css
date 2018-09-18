@@ -74,6 +74,7 @@
 
     .responsive-main-content-partners {
         width: 45rem;
+        top: 17%;
     }
 
     .responsive-believe-body {
@@ -98,10 +99,75 @@
 
  @media all and (max-width: 768px) {
     html {
-        font-size: 15px;
+        font-size: 14px;
+    }
+
+    /* partners.html */
+    .partners-title {
+        padding-bottom: 1rem;
+    }
+
+    .responsive-main-content-partners {
+        width: 90%;
+        top: 15%;
+    }
+
+    .responsive-partners-logos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
     }
  }
 
+ @media all and (max-width: 577px) { 
+    .partners-title {
+        padding-bottom: 0;
+    }
+    .responsive-main-content-partners {
+        width: 100%;
+    }
+
+    .responsive-partners-eye {
+        display: none;
+    }
+
+    .responsive-partners-rose {
+        display: none;
+    }
+
+    .menu-item-commitment {
+        bottom: 2.6rem;
+        left: 48%;
+        top: unset;
+        transform: rotate(1800deg) translateX(-50%)   ;
+        -webkit-transform: rotate(1800deg) translateX(-50%)   ;
+        -moz-transform: rotate(1800deg) translateX(-50%)   ;
+        -ms-transform: rotate(1800deg) translateX(-50%)   ;
+        -o-transform: rotate(1800deg) translateX(-50%)   ;
+        height: 1rem;
+}
+
+}
+
 @media all and (max-width: 480px) { 
+    html {
+        font-size: .7rem;
+    }
+
+    .responsive-partners-logos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu-item a {
+        font-size: .8rem;
+    }
+
+    .menu-item-commitment {
+        bottom: 2.4rem;
+        left: 46.5%;
     
  }
