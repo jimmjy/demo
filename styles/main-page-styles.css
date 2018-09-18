@@ -320,8 +320,13 @@
 }
 
 .animate-two {
-    animation: fadeIn 1s .4s ease-in forwards;
-    -webkit-animation: fadeIn 1s .4s ease-in forwards;
+    animation: fadeIn 1s .5s ease-in forwards;
+    -webkit-animation: fadeIn 1s .5s ease-in forwards;
+}
+
+.animate-fadein-delay {
+    animation: fadeIn 1s 1s ease-in forwards;
+    -webkit-animation: fadeIn 1s 1s ease-in forwards;
 }
 
 .animate-page-title-no-delay {
