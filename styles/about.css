@@ -2,6 +2,7 @@
 
 
 .background-splash {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(221, 185, 119, .5)), to(rgba(221, 185, 119, .5))), url('../images/backgrounds/Juliet_founders-min.jpg');
     background: linear-gradient(rgba(221, 185, 119, .5), rgba(221, 185, 119, .5)), url('../images/backgrounds/Juliet_founders-min.jpg');
     background-size: cover cover;
     background-repeat: no-repeat;
@@ -18,7 +19,8 @@
     line-height: 1.6rem;
     top: 25%;
     left: 50%;
-    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+            transform:translateX(-50%);
     width: 41rem;
     -webkit-transform:translate(-50%);
     -moz-transform:translate(-50%);
