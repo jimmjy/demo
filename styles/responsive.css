@@ -406,6 +406,35 @@
          line-height: 1.4rem;
      }
 
+     /* commitment page */
+     .commitment-body {
+         width: 20rem;
+     }
+
+     .commitment-title-top {
+         font-size: 1.2rem;
+     }
+
+     .commitment-body-para-newline {
+         font-size: .5rem;
+     }
+
+     .commitment-title-bottom {
+        font-size: .9rem;
+     }
+
+     .commitment-body-list {
+        width: 20rem;
+     }
+
+    .commitment-grid {
+        padding: 1.3rem;
+    }
+
+    .commit-grid-line {
+        font-size: .4rem;
+        line-height: 1rem;
+    }
 
  }
 
