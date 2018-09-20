@@ -6,8 +6,8 @@
 /* commitment body styling */
 .commitment-body {
     position: relative;
-    top: 20%;
-    width: 41rem;
+    top: 11rem;
+    width: 37rem;
     margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@
 
 .commitment-body-para-newline {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'Galaxie Copernicusbook';
 }
 
@@ -47,7 +47,29 @@
     font-family: 'Asap Condensedbold', Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
+}
+
+.commitment-body-list {
+    width: 37rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.commitment-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.commitment-grid {
+    padding: 1.4rem;
+}
+
+.commit-grid-line {
+    display: block;
+    font-family: 'Galaxie Copernicusbook';
+    font-size: 1.2rem;
 }
 
 .commitment-list {
@@ -69,4 +91,19 @@
 
 .list-item-newline {
     display: block;
+}
+
+/* grid borders */
+
+.commitment-grid-one {
+    border-right: 1px solid rgb(225, 246, 241);
+    border-bottom: 1px solid rgb(225, 246, 241);
+}
+
+.commitment-grid-two {
+    border-bottom: 1px solid rgb(225, 246, 241);
+}
+
+.commitment-grid-three {
+    border-right: 1px solid rgb(225, 246, 241);
 }
