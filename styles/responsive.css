@@ -157,7 +157,7 @@
     }
 
     .commit-grid-line {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.7rem;
     }
 }
@@ -435,6 +435,7 @@
 
      /* commitment page */
      .commitment-body {
+         top: 9rem;
          width: 20rem;
      }
 
@@ -443,7 +444,7 @@
      }
 
      .commitment-body-para-newline {
-         font-size: .5rem;
+         font-size: .6rem;
      }
 
      .commitment-title-bottom {
