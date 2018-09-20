@@ -67,6 +67,7 @@
 
 .menu-item-commitment {
     top: 50%;
+    left: -1.8rem;
     transform: rotate(270deg);
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);

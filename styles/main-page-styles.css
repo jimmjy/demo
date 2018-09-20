@@ -28,6 +28,7 @@
     color: rgb(255, 246, 241);
     line-height: 2.7rem;
     font-family: 'Galaxie Copernicusextrabold';
+    padding-bottom: .8rem;
 }
 
 /* page one animation classes */
@@ -57,14 +58,14 @@
 .content-center-body {
     text-align: center;
     color: rgb(221,186,119);
-    line-height: 1.6rem;
+    line-height: 1.3rem;
 }
 
 .content-center-body__para {
     font-family: 'Galaxie Copernicusbook';
     font-size: 1rem;
     display: block;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
 }
 
 .content-center-footer {
@@ -182,13 +183,13 @@
     font-size: 2rem;
     letter-spacing: .1rem;
     color: rgb(221, 186, 119);
-    padding-bottom: .2rem;
+    padding-bottom: .9rem;
 }
 
 .content-center-pre-footer__what-we-do {
     display: block;
     font-family: 'Galaxie Copernicusbook';
-    line-height: 1.6rem;
+    line-height: 1.3rem;
     color: rgb(221, 186, 119);
     letter-spacing: .04rem;
 }
@@ -259,7 +260,8 @@
 }
 
 .contact-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
 }
 
 .content-center-contact-paragraph {
@@ -268,8 +270,9 @@
 
 .content-center-contact {
     display: block;
-    font-size: .9rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
+    letter-spacing: .08rem;
 }
 
 .contact--gold {
@@ -290,14 +293,14 @@
     color: rgb(255, 246, 241);
     padding: .2rem;
     font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 
 .content-center-contact-address {
     display: block;
     line-height: 1.5rem;
     font-family: 'Galaxie Copernicusbook', Helvetica, sans-serif;
-    font-size: .9rem;
+    font-size: 1.2rem;
 }
 
 /* page five edge image styling */
