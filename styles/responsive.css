@@ -359,8 +359,8 @@
     }
 
     .about-main-story {
-        font-size: 1.3rem;
-        line-height: 1.7rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
     }
 
     .love-dearly {
@@ -375,14 +375,14 @@
     
  }
 
- @media (max-width: 370px) {
+ @media (max-width: 376px) {
 
      .menu-item a {
          font-size: .7rem;
      }
 
      .about-main {
-         top: 6rem;
+         top: 8rem;
      }
 
      .responsive-about-main {
@@ -391,8 +391,15 @@
 
      .about-main-story {
          font-size: 1rem;
-         line-height: 1.3rem;
+         line-height: 1.4rem;
      }
 
 
+ }
+
+ @media (max-width: 330px) {
+    .about-main-story {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
  }
