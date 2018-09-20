@@ -78,8 +78,8 @@
     }
 
     .responsive-believe-body {
-        top: 18rem;
-        width: 47rem;
+        top: 17rem;
+        width: 40rem;
     }
 
    .responsive-believe-saying {
@@ -112,20 +112,85 @@
         top: 15%;
     }
 
+    .responsive-believe-body {
+        top: 19rem;
+        width: 40rem;
+    }
+
+    .responsive-believe-saying {
+        font-size: 2.2rem;
+    }
+
     .responsive-partners-logos {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 80%;
         margin: 0 auto;
     }
- }
 
+    .about-main-story {
+            font-size: 1.5rem;
+            line-height: 1.9rem;
+            }
+}
+ 
+
+ @media all and (max-width: 660px) {
+    .pageOne--hide {
+        display: none;
+    }
+
+    .pageOne--unhide {
+        display: block;
+    }
+
+    .responsive-sword-page-four {
+        bottom: -20rem;
+    }
+
+    .page-four-edge-sword {
+        left: 7em;
+    }
+
+    .responsive-believe-body {
+        top: 19rem;
+        width: 40rem;
+    }
+
+    .responsive-believe-saying {
+        font-size: 2.2rem;
+    }
+
+    .commitment-about {
+            bottom: 2.5rem;
+            left: 50%;
+            top: unset;
+            transform: rotate(0deg) translateX(-50%);
+            -webkit-transform: rotate(0deg) translateX(-50%);
+    }
+
+    .menu-item-commitment {
+        bottom: 2.5rem;
+        left: 50%;
+        top: unset;
+        transform: rotate(0deg) translateX(-50%);
+        -webkit-transform: rotate(0deg) translateX(-50%);
+        -moz-transform: rotate(0deg) translateX(-50%);
+        -ms-transform: rotate(0deg) translateX(-50%);
+        -o-transform: rotate(0deg) translateX(-50%);
+    }
+ }
+  
  @media all and (max-width: 577px) { 
     .partners-title {
         padding-bottom: 0;
     }
     .responsive-main-content-partners {
         width: 100%;
+    }
+
+    .page-one-responsive-center {
+        width: 95%;
     }
 
     .responsive-partners-eye {
@@ -136,8 +201,17 @@
         display: none;
     }
 
+    .responsive-believe-body {
+        top: 14rem;
+        width: 24rem;
+    }
+
+    .responsive-believe-saying {
+        font-size: 1.7rem;
+    }
+
     .menu-item-commitment {
-        bottom: 2.6rem;
+        bottom: 2.5rem;
         left: 50%;
         top: unset;
         transform: rotate(0deg) translateX(-50%)   ;
@@ -145,8 +219,28 @@
         -moz-transform: rotate(0deg) translateX(-50%)   ;
         -ms-transform: rotate(0deg) translateX(-50%)   ;
         -o-transform: rotate(0deg) translateX(-50%)   ;
-        height: 1rem;
-}
+    }
+
+    .responsive-about-main {
+        width: 33rem;
+    }
+
+    .love-dearly {
+        display: unset;
+    }
+
+    .about-center {
+        display: block;
+    }
+
+    .about-main {
+        top: 8rem;
+    }
+
+    .about-main-story {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
 
 }
 
@@ -209,7 +303,6 @@
 
     /* page four */
     .page-four-center-content {
-        top: 14rem;
         width: 95%;
     }
 
@@ -230,7 +323,6 @@
     /* page five */
 
     .responsive-page-five-content {
-        top: 11rem;
         width: 95%;
     }
 
@@ -254,12 +346,53 @@
     }
 
     .menu-item a {
-        font-size: .7rem;
+        font-size: 1rem;
     }
 
     .menu-item-commitment {
-        bottom: 2.3rem;
+        bottom: 2.5rem;
         left: 46.5%;
     }
+
+    .responsive-about-main {
+        width: 25rem;
+    }
+
+    .about-main-story {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .love-dearly {
+        display: unset;
+    }
+
+    .about-center {
+        display: block;
+    }
+
     
+    
+ }
+
+ @media (max-width: 370px) {
+
+     .menu-item a {
+         font-size: .7rem;
+     }
+
+     .about-main {
+         top: 6rem;
+     }
+
+     .responsive-about-main {
+         width: 23rem;
+     }
+
+     .about-main-story {
+         font-size: 1rem;
+         line-height: 1.3rem;
+     }
+
+
  }

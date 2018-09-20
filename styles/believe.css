@@ -12,9 +12,9 @@
 /* ------------------- check scrolling at 900 --------------------- for background */
 /* body content styling */
 .believe-body-content {
-    width: 55rem;
+    width: 50rem;
     position: absolute;
-    top: 33%;
+    top: 14rem;
     left: 50%;
     transform: translate(-50%);
     -webkit-transform: translate(-50%);

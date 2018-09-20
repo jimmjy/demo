@@ -12,7 +12,7 @@
 .main-content-center {
     width: 80%;
     position: relative;
-    top: 20vh;
+    top: 11rem;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -161,7 +161,7 @@
 }
 
 .content-center-page-three {
-    top: 27vh;
+    top: 15rem;
 }
 
 .page-three-title-animation {

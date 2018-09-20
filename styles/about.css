@@ -16,12 +16,11 @@
 
 .about-main {
     position: relative;
-    line-height: 1.6rem;
-    top: 25%;
+    top: 10rem;
     left: 50%;
     -webkit-transform:translateX(-50%);
             transform:translateX(-50%);
-    width: 41rem;
+    width: 44rem;
     -webkit-transform:translate(-50%);
     -moz-transform:translate(-50%);
     -ms-transform:translate(-50%);
@@ -43,7 +42,8 @@
 
 .about-main-story {
     font-family: 'Galaxie Copernicusbook';
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
 }
 
 .love-dearly {
