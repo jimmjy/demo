@@ -133,6 +133,33 @@
             font-size: 1.5rem;
             line-height: 1.9rem;
             }
+
+    .commitment-body {
+        top: 16rem;
+        width: unset;
+    }
+
+    .commitment-title-top {
+        font-size: 3rem;
+    }
+
+    .commitment-body-para-newline {
+        font-size: 1.3rem;
+    }
+
+    .commitment-title-bottom {
+        font-size: 1.6rem;
+        letter-spacing: .15rem;
+    }
+
+    .commitment-grid {
+        padding: 1.4rem;
+    }
+
+    .commit-grid-line {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
 }
  
 
