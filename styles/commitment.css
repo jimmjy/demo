@@ -6,13 +6,13 @@
 /* commitment body styling */
 .commitment-body {
     position: relative;
-    top: 11rem;
+    top: 9rem;
     width: 37rem;
     margin: 0 auto;
 }
 
 .top-body {
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
 }
 
 .commitment-body-title {
@@ -23,7 +23,7 @@
 
 .commitment-title-top {
     font-family: 'Galaxie Copernicusbold', Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: .05rem;
 }
 
@@ -33,21 +33,22 @@
 
 .commitment-body-para {
     text-align: center;
-    line-height: 2rem;
+    line-height: 1.7rem;
 }
 
 .commitment-body-para-newline {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Galaxie Copernicusbook';
 }
 
 /* body content bottom section */
 .commitment-title-bottom {
     font-family: 'Asap Condensedbold', Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    letter-spacing: .05rem;
+    letter-spacing: .1rem;
+    margin-bottom: 2rem;
 }
 
 .commitment-body-list {
@@ -70,6 +71,7 @@
     display: block;
     font-family: 'Galaxie Copernicusbook';
     font-size: 1.2rem;
+    line-height: 1.7rem;
 }
 
 .commitment-list {
