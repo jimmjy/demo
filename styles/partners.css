@@ -37,6 +37,14 @@
        object-fit: contain;
 }
 
+.we-logo {
+    padding: 3rem;
+}
+
+.lyft-logo {
+    padding: 3rem;
+}
+
 /* edge eye image styling */
 
 .edge-eye-logo-partners {
