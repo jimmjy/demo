@@ -64,3 +64,13 @@
     bottom: 2.5rem;
     right: 2.5rem;
 }
+
+.menu-item-commitment {
+        top: 48%;
+        transform: rotate(270deg) translateX(2rem);
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg) translateX(2rem);
+        -ms-transform: rotate(270deg) translateX(2rem);
+        -o-transform: rotate(270deg) translateX(2rem);
+        left: -2.3rem;
+}
