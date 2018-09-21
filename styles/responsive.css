@@ -425,9 +425,4 @@
     }
  }
 
- @media all and (orientation:landscape) {
-    .partners-wrapper {
-        height: 8rem;
-    }
- }
 
