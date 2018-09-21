@@ -48,6 +48,8 @@ $(document).ready(function(){
         e.preventDefault();
         $.fn.fullpage.moveSectionUp();
     });
+
+    screen.orientation.lock("natural");
 });
     
 
