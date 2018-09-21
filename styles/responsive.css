@@ -394,7 +394,7 @@
      }
 
      .partners-wrapper {
-         height: 32rem;
+         height: 37rem;
      }
 
      .partner-logo {
@@ -418,5 +418,9 @@
     .about-main-story {
         font-size: 1rem;
         line-height: 1.3rem;
+    }
+
+    .partners-wrapper {
+        height: 31rem;
     }
  }
