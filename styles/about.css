@@ -29,6 +29,7 @@
 
 .about-main-body {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .about-main-body-header {
@@ -75,4 +76,26 @@
 .edge-eye-logo-about img {
     width: 100%;
     display: block;
+}
+
+.believe-button {
+    width: 3.7rem;
+    margin: 0 auto;
+}
+
+.believe-button a {
+    display: block;
+}
+
+.believe-button img {
+    width: 100%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.partners-wrapper {
+    height: 28rem;
 }
