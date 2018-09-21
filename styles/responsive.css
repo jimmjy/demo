@@ -366,9 +366,6 @@
     .about-center {
         display: block;
     }
-
-    
-    
  }
 
  @media (max-width: 376px) {
@@ -388,6 +385,32 @@
      .about-main-story {
          font-size: 1rem;
          line-height: 1.4rem;
+     }
+
+     /* partners */
+
+     .responsive-main-content-partners {
+         top: 8rem;
+     }
+
+     .partners-wrapper {
+         height: 32rem;
+     }
+
+     .partner-logo {
+         padding: .2rem;
+     }
+
+     .futurezona-logo {
+         padding: 2.2rem;
+     }
+
+     .we-logo {
+         padding: 2rem;
+     }
+
+     .lyft-logo {
+         padding: 2rem;
      }
  }
 
