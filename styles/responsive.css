@@ -394,7 +394,7 @@
      }
 
      .partners-wrapper {
-         height: 37rem;
+         height: 32rem;
      }
 
      .partner-logo {
@@ -421,6 +421,13 @@
     }
 
     .partners-wrapper {
-        height: 31rem;
+        height: 29rem;
     }
  }
+
+ @media all and (orientation:landscape) {
+    .partners-wrapper {
+        height: 12rem;
+    }
+ }
+
