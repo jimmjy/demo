@@ -49,8 +49,10 @@ $(document).ready(function(){
         $.fn.fullpage.moveSectionUp();
     });
 
-    screen.orientation.lock("natural");
 });
+
+
+screen.orientation.lock("natural");
     
 
 
