@@ -2,6 +2,9 @@
     /* main page responsive styling */
     /* page one styling */
 
+    .menu-item-commitment {
+        display: block;
+    }
     
     .responsive-main-page-one {
         position: relative;
@@ -69,6 +72,9 @@
  }
 
  @media all and (max-width: 900px) {
+     .menu-item-commitment {
+         display: none;
+     }
      .responsive-about-main {
         width: 39rem;
      }
