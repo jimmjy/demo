@@ -347,7 +347,7 @@
     }
 
     .menu-item a {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .responsive-about-main {
@@ -371,7 +371,7 @@
  @media (max-width: 376px) {
 
      .menu-item a {
-         font-size: .7rem;
+         font-size: 1rem;
      }
 
      .about-main {
