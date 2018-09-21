@@ -90,6 +90,9 @@
         font-size: 14px;
     }
 
+    .juliet-logo {
+        width: 6rem;
+    }
     /* partners.html */
 
     .responsive-main-content-partners {
@@ -192,6 +195,10 @@
         padding-bottom: 0;
     }
 
+    .juliet-logo {
+        width: 5.5rem;
+    }
+
     .partner-logo {
         padding: .7rem;
     }
@@ -246,11 +253,24 @@
         line-height: 1.7rem;
     }
 
+    /* believe page */
+    .believe-hide {
+        display: none;
+    }
+
+    .believe-unhide {
+        display: block;
+    }
+
 }
 
 @media all and (max-width: 480px) { 
     html {
         font-size: .8rem;
+    }
+
+    .juliet-logo {
+        width: 5rem;
     }
 
     .background-about {

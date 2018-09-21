@@ -62,3 +62,7 @@
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
 }
+
+.believe-unhide {
+    display: none;
+}
