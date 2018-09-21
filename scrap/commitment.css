@@ -1,0 +1,49 @@
+body {
+    background: rgb(221, 186, 119);
+}
+
+.main-background {
+    height: 100vh;
+}
+
+.comit-wrapper {
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    position: relative;
+    top: 9rem;
+    overflow-y: scroll;
+    text-align: center;
+    height: 79%;
+}
+
+.comit-wrapper::-webkit-scrollbar {
+        width: 0;
+}
+
+.commitment-body-title {
+    color: rgb(225, 246, 241);
+}
+
+.commitment-title-top {
+    font-family: 'Galaxie Copernicusbold',
+    Arial,
+    Helvetica,
+    sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: .05rem;
+    padding-bottom: 1rem;
+}
+
+.commitment-body-para 
+
+.commitment-body-para-newline {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Galaxie Copernicusbook';
+    color: rgb(54, 63, 72);
+    line-height: 1.3rem;
+    letter-spacing: .05rem;
+}
+
+

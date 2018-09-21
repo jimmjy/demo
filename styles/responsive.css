@@ -66,35 +66,20 @@
     }
  }
 
- /* commitment.html works fine with the html tag so no extra styles at this break point */
  @media all and (max-width: 900px) {
      .responsive-about-main {
         width: 39rem;
      }
-
-    .responsive-main-content-partners {
-        width: 45rem;
-        top: 17%;
-    }
-
-    .responsive-believe-body {
-        top: 17rem;
-        width: 40rem;
-    }
-
-   .responsive-believe-saying {
-       font-size: 2.2rem;
-   }
 
    .responsive-partners-eye {
        width: 13rem;
        top: -5rem;
    }
 
-   .responsive-partners-rose {
-       width: 14rem;
-       bottom: -8rem;
+   .main-content-partners {
+       width: 45rem;
    }
+
  }
 
  @media all and (max-width: 768px) {
@@ -104,14 +89,34 @@
     }
 
     /* partners.html */
-    .partners-title {
-        padding-bottom: 1rem;
-    }
 
     .responsive-main-content-partners {
         width: 90%;
-        top: 15%;
+        top: 7rem;
     }
+
+    .partners-wrapper {
+        overflow-y: scroll;
+        height: 51rem;
+    }
+
+    .partners-paragraph-desktop {
+        display: none;
+    }
+
+    .partners-paragraph-mobile {
+        display: block;
+    }
+
+    .partner-logo {
+        width: 33%;
+    }
+
+    .partners-wrapper {
+        height: 46rem;
+    }
+
+    /* believe page */
 
     .responsive-believe-body {
         top: 19rem;
@@ -122,44 +127,11 @@
         font-size: 2.2rem;
     }
 
-    .responsive-partners-logos {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        width: 80%;
-        margin: 0 auto;
-    }
-
     .about-main-story {
             font-size: 1.5rem;
             line-height: 1.9rem;
             }
 
-    .commitment-body {
-        top: 16rem;
-        width: unset;
-    }
-
-    .commitment-title-top {
-        font-size: 3rem;
-    }
-
-    .commitment-body-para-newline {
-        font-size: 1.3rem;
-    }
-
-    .commitment-title-bottom {
-        font-size: 1.6rem;
-        letter-spacing: .15rem;
-    }
-
-    .commitment-grid {
-        padding: 1.4rem;
-    }
-
-    .commit-grid-line {
-        font-size: 1.2rem;
-        line-height: 1.7rem;
-    }
 }
  
 
@@ -190,47 +162,55 @@
         width: 40rem;
     }
 
+    /* partners */
+    .partner-logo {
+        padding: 1rem;
+    }
+
+    .futurezona-logo {
+        padding: 2.5rem;
+    }
+
+    .we-logo {
+        padding: 3rem;
+    }
+
+    .lyft-logo {
+        padding: 3rem;
+    }
+
     .responsive-believe-saying {
         font-size: 2.2rem;
-    }
-
-    .commitment-about {
-            bottom: 2.5rem;
-            left: 50%;
-            top: unset;
-            transform: rotate(0deg) translateX(-50%);
-            -webkit-transform: rotate(0deg) translateX(-50%);
-    }
-
-    .menu-item-commitment {
-        bottom: 2.5rem;
-        left: 50%;
-        top: unset;
-        transform: rotate(0deg) translateX(-50%);
-        -webkit-transform: rotate(0deg) translateX(-50%);
-        -moz-transform: rotate(0deg) translateX(-50%);
-        -ms-transform: rotate(0deg) translateX(-50%);
-        -o-transform: rotate(0deg) translateX(-50%);
     }
  }
   
  @media all and (max-width: 577px) { 
+     /* partners */
     .partners-title {
         padding-bottom: 0;
     }
-    .responsive-main-content-partners {
-        width: 100%;
+
+    .partner-logo {
+        padding: .7rem;
     }
 
+    .futurezona-logo {
+        padding: 2.5rem;
+    }
+
+    .we-logo {
+        padding: 3rem;
+    }
+
+    .lyft-logo {
+        padding: 3rem;
+    }
+    
     .page-one-responsive-center {
         width: 95%;
     }
 
     .responsive-partners-eye {
-        display: none;
-    }
-
-    .responsive-partners-rose {
         display: none;
     }
 
@@ -241,17 +221,6 @@
 
     .responsive-believe-saying {
         font-size: 1.7rem;
-    }
-
-    .menu-item-commitment {
-        bottom: 2.5rem;
-        left: 50%;
-        top: unset;
-        transform: rotate(0deg) translateX(-50%)   ;
-        -webkit-transform: rotate(0deg) translateX(-50%)   ;
-        -moz-transform: rotate(0deg) translateX(-50%)   ;
-        -ms-transform: rotate(0deg) translateX(-50%)   ;
-        -o-transform: rotate(0deg) translateX(-50%)   ;
     }
 
     .responsive-about-main {
@@ -377,20 +346,8 @@
         display: none;
     }
 
-    .responsive-partners-logos {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        width: 100%;
-        margin: 0 auto;
-    }
-
     .menu-item a {
         font-size: 1rem;
-    }
-
-    .menu-item-commitment {
-        bottom: 2.5rem;
-        left: 46.5%;
     }
 
     .responsive-about-main {
@@ -432,38 +389,6 @@
          font-size: 1rem;
          line-height: 1.4rem;
      }
-
-     /* commitment page */
-     .commitment-body {
-         top: 9rem;
-         width: 20rem;
-     }
-
-     .commitment-title-top {
-         font-size: 1.2rem;
-     }
-
-     .commitment-body-para-newline {
-         font-size: .6rem;
-     }
-
-     .commitment-title-bottom {
-        font-size: .9rem;
-     }
-
-     .commitment-body-list {
-        width: 20rem;
-     }
-
-    .commitment-grid {
-        padding: 1.3rem;
-    }
-
-    .commit-grid-line {
-        font-size: .4rem;
-        line-height: 1rem;
-    }
-
  }
 
  @media (max-width: 330px) {

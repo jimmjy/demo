@@ -3,38 +3,42 @@
 .background-partners {
     background: rgb(239, 70, 35);
     height: 100vh;
-    overflow: hidden;
     position: relative;
 }
 
 .main-content-partners {
     position: relative;
     margin: 0 auto;
-    top: 20%;
+    top: 6rem;
     width: 50rem;
 }
 
+.partners-wrapper {
+    overflow-y: scroll;
+    height: 40.5rem;
+}
 
-.partners-title {
-    color: rgb(225, 246, 241);
-    text-align: center;
-    padding-bottom: 2rem;
+.partners-wrapper::-webkit-scrollbar {
+    width: 0;
 }
 
 .partners-logos {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .partner-logo {
     display: block;
-    width: 100%;
+    width: 25%;
     height: 9rem;
     padding: 1.5rem;
     -o-object-fit: contain;
        object-fit: contain;
+}
+
+.futurezona-logo {
+    padding: 2.5rem;
 }
 
 .we-logo {
@@ -43,6 +47,43 @@
 
 .lyft-logo {
     padding: 3rem;
+}
+
+.partners-paragraph-desktop, .partners-paragraph-mobile {
+    font-family: 'Galaxie Copernicusbook',
+    Helvetica,
+    sans-serif;
+    color: rgb(221, 186, 119);
+    text-align: center;
+}
+
+.partners-paragraph-mobile {
+    display: none;
+}
+
+.partner-new-line {
+    display: block;
+}
+/* button */
+
+.believe-button {
+    width: 3.7rem;
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+}
+
+.believe-button a {
+    display: block;
+}
+
+.believe-button img {
+    width: 100%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
 }
 
 /* edge eye image styling */
