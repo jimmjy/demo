@@ -141,7 +141,11 @@
     .about-main-story {
             font-size: 1.5rem;
             line-height: 1.9rem;
-            }
+    }
+
+    .responsive-eye-about-page {
+        display: none;
+    }
 
 }
  
@@ -471,7 +475,7 @@
 
     .about-main-story {
         font-size: 1.7rem;
-        line-height: 1.3rem;
+        line-height: 1.8rem;
     }
 
     .about-main-story::-webkit-scrollbar {
