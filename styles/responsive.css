@@ -328,7 +328,7 @@
     }
 
     .page-three-font span {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .content-center-page-three {
@@ -489,6 +489,10 @@
 
     .partners-wrapper {
         height: 17rem;
+    }
+
+    .page-three-font {
+        font-size: 1.8rem;
     }
  }
 
