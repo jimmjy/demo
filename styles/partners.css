@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.partners-paragraph-desktop {
+    display: none;
+}
+
 .menu-item-partners a {
     color: #fff;
 }

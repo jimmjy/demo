@@ -2,6 +2,10 @@ body {
     background: rgb(221, 186, 119);
 }
 
+.menu-item-commitment {
+    color: #fff;
+}
+
 .main-background {
     height: 100vh;
 }

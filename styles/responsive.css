@@ -147,6 +147,10 @@
         display: none;
     }
 
+    .partners-paragraph-desktop {
+        display: block;
+    }
+
 }
  
 
