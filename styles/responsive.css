@@ -332,7 +332,8 @@
     }
 
     .page-three-font span {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
     }
 
     .content-center-page-three {
@@ -351,7 +352,8 @@
     }
 
     .page-four-title-body span {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
     }
 
     .content-center-pre-footer__what-we-do {

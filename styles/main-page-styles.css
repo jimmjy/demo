@@ -191,7 +191,7 @@
     font-family: 'Galaxie Copernicusbook';
     line-height: 1.3rem;
     color: rgb(221, 186, 119);
-    letter-spacing: .04rem;
+    letter-spacing: .05rem;
 }
 
 .get--out {
@@ -272,7 +272,7 @@
     display: block;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    letter-spacing: .08rem;
+    letter-spacing: .05rem;
 }
 
 .contact--gold {
