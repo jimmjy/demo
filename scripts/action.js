@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('#fullpage').fullpage({
+        licenseKey: 'F94CB907 - 594945E2 - 88192991 - 94E1148A',
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
     
         afterLoad: function(anchorLink, index){
