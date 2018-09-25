@@ -20,11 +20,11 @@
 
 .about-main {
     position: relative;
-    top: 10rem;
+    top: 16rem;
     left: 50%;
     -webkit-transform:translateX(-50%);
             transform:translateX(-50%);
-    width: 44rem;
+    width: 80%;
     -webkit-transform:translate(-50%);
     -moz-transform:translate(-50%);
     -ms-transform:translate(-50%);
@@ -39,8 +39,8 @@
 
 .about-main-story {
     font-family: 'Galaxie Copernicusbook';
-    font-size: 1.3rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
     color: rgb(255, 255, 255);
 }
 

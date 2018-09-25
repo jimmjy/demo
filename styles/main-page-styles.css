@@ -189,7 +189,7 @@
 .content-center-pre-footer__what-we-do {
     display: block;
     font-family: 'Galaxie Copernicusbook';
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     color: rgb(221, 186, 119);
     letter-spacing: .05rem;
 }
@@ -332,8 +332,8 @@
 }
 
 .animate-fadein-delay {
-    animation: fadeIn 1s 1s ease-in forwards;
-    -webkit-animation: fadeIn 1s 1s ease-in forwards;
+    animation: fadeIn 1s .8s ease-in forwards;
+    -webkit-animation: fadeIn 1s .8s ease-in forwards;
 }
 
 .animate-page-title-no-delay {
@@ -343,8 +343,8 @@
 
 .animate-two-delay {
     position: relative;
-    animation: fadeInSlideUp 1s .5s ease-in-out forwards;
-    -webkit-animation: fadeInSlideUp 1s .5s ease-in-out forwards;
+    animation: fadeInSlideUp .8s ease-out .5s forwards;
+    -webkit-animation: fadeInSlideUp .8s ease-out .5s forwards;
 }
 
 .animate-up {
@@ -355,8 +355,8 @@
 
 .animate-two-down {
     position: relative;
-    animation: fadeInSlideDown 1s ease-in-out forwards;
-    -webkit-animation: fadeInSlideDown 1s ease-in-out forwards;
+    animation: fadeInSlideDown .8s forwards;
+    -webkit-animation: fadeInSlideDown .8s forwards;
 }
 
 /* animation steps */
@@ -419,7 +419,7 @@
 
 @-webkit-keyframes fadeInSlideDown {
     0% {
-       opacity: 0;
+       opacity: 1;
        transform: translateY(-20px);
        -webkit-transform: translateY(-20px);
        -moz-transform: translateY(-20px);

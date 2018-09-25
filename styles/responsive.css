@@ -75,9 +75,6 @@
      .menu-item-commitment {
          display: none;
      }
-     .responsive-about-main {
-        width: 39rem;
-     }
 
    .responsive-partners-eye {
        width: 13rem;
@@ -139,8 +136,8 @@
     }
 
     .about-main-story {
-            font-size: 1.5rem;
-            line-height: 1.9rem;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
     }
 
     .responsive-eye-about-page {
@@ -246,10 +243,6 @@
         font-size: 1.7rem;
     }
 
-    .responsive-about-main {
-        width: 33rem;
-    }
-
     .love-dearly {
         display: unset;
     }
@@ -263,7 +256,7 @@
     }
 
     .about-main-story {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         line-height: 1.7rem;
     }
 
@@ -318,7 +311,7 @@
     /* main page - page two */
     .responsive-main-page-two {
         position: relative;
-        top: -3rem;
+        top: 0rem;
     }
     .responsive-skull-page-two {
         bottom: -11rem;
@@ -341,9 +334,9 @@
     }
 
     .responsive-rose-page-three {
-        width: 13rem;
-        bottom: -6rem;
-        right: -4rem;
+        width: 11rem;
+        bottom: -8rem;
+        right: -7rem;
     }
 
     /* page four */
@@ -388,10 +381,6 @@
         font-size: 1.2rem;
     }
 
-    .responsive-about-main {
-        width: 25rem;
-    }
-
     .about-main-story {
         font-size: 1.6rem;
         line-height: 1.7rem;
@@ -413,8 +402,8 @@
     }
 
     .about-main-story {
-        font-size: 1.7rem;
-        line-height: 1.8rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
     }
  }
 
@@ -438,12 +427,12 @@
      }
 
      .about-main-story {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+         font-size: 1.1rem;
+         line-height: 1.5rem;
      }
 
      .responsive-about-main {
-         width: 23rem;
+         width: 80%;
      }
 
      /* partners */
@@ -471,17 +460,36 @@
      .lyft-logo {
          padding: 2.5rem;
      }
+
+     .responsive-believe-body {
+         top: 13rem;
+     }
  }
 
  @media (max-width: 330px) {
+
+    .contact-title {
+        padding-bottom: 1rem;
+    }
+
+    .email-links {
+        padding: 1rem 0;
+    }
+
+    .about-wrapper {
+
+        overflow: scroll;
+        height: 33rem;
+
+    }
 
     .about-main {
         top: 6rem;
     }
 
     .about-main-story {
-        font-size: 1.7rem;
-        line-height: 1.8rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
     }
 
     .about-main-story::-webkit-scrollbar {
@@ -499,6 +507,10 @@
 
     .page-three-font {
         font-size: 1.8rem;
+    }
+
+    .responsive-believe-body {
+        top: 9rem;
     }
  }
 
